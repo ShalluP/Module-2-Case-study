@@ -24,7 +24,7 @@ public class Module2CaseStudy {
 
 		// Inspecting searchbox by id locator
 		
-		/*WebElement searchBox = driver.findElement(By.id("search-inp")); // Inspecting the webelement searchBox by locator id
+		WebElement searchBox = driver.findElement(By.id("search-inp")); // Inspecting the webelement searchBox by locator id
 		searchBox.click();				// clicking it.
 		if (searchBox!= null)
 		{
@@ -35,40 +35,41 @@ public class Module2CaseStudy {
 
 		//Inspecting login by Linktext or partial linktext
 		
-		/*
-		 * WebElement logIn = driver.findElement(By.linkText("Log In"));
-		 * logIn.click();
-		 * 
-		 * if (logIn!= null) {
-		 * System.out.println("element inspected by linktext locator"); } 
+		
+		  WebElement logIn = driver.findElement(By.linkText("Log In"));
+		  logIn.click();
+		 
+		 if (logIn!= null) {
+		 System.out.println("element inspected by linktext locator"); } 
 		 
 		
-	    WebElement logIn = driver.findElement(By.partialLinkText("og I"));
-	    		logIn.click();
-	   
-	    if (logIn!= null)
-	    {
-	    	System.out.println("element inspected by partial linktext locator");
-	    }
-	   
-	    
-	    //WebElement logIn = driver.findElement(By.tagName("a")); // Inspecting the webelement searchBox
-	    //logIn.click();				// clicking it.
-	    //WebElement logIn = driver.findElement(By.className("signin top-signin giTrackElementHeader hidden-xs")); // Inspecting the webelement searchBox
-	    //logIn.click();				// clicking it.
-		
-		//WebElement logIn= driver.findElement(By.cssSelector("#header-II > section > nav > div > a.signin.top-signin.giTrackElementHeader.hidden-xs"));
-		//logIn.click();  // inspecting the logIn button and clicking it.
-		
-		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // implicit wait
+		/*
+		 * // WebElement logIn = driver.findElement(By.partialLinkText("og I"));
+		 * //logIn.click();
+		 * 
+		 * // if (logIn!= null) // { //
+		 * System.out.println("element inspected by partial linktext locator"); // }
+		 * 
+		 * 
+		 * WebElement logIn = driver.findElement(By.tagName("a")); // Inspecting the
+		 * webelement searchBox logIn.click(); // clicking it. WebElement logIn =
+		 * driver.findElement(By.
+		 * className("signin top-signin giTrackElementHeader hidden-xs")); // Inspecting
+		 * the webelement searchBox logIn.click(); // clicking it.
+		 * 
+		 * WebElement logIn= driver.findElement(By.
+		 * cssSelector("#header-II > section > nav > div > a.signin.top-signin.giTrackElementHeader.hidden-xs"
+		 * )); logIn.click(); // inspecting the logIn button and clicking it.
+		 */		
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // implicit wait
 		
 		// sending keys to type in the email.
 		
 		//WebElement email = driver.findElement(By.tagName("input")); // Inspecting the webelement searchBox
 		//email.sendKeys("abc@gmail.com");				// clicking it.
 			
-		//WebElement email = driver.findElement(By.className("control_place popusreml")); // Inspecting the webelement searchBox
-		//email.sendKeys("abc@gmail.com"); // sending name
+	   WebElement email = driver.findElement(By.className("control_place popusreml")); // Inspecting the webelement searchBox
+		email.sendKeys("abc@gmail.com"); // sending name
 		Thread.sleep(2000);
 		
 		WebElement email = driver.findElement(By.id("si_popup_email")); // Inspecting the webelement email
@@ -97,10 +98,10 @@ public class Module2CaseStudy {
 		driver.findElement(By.xpath("//button[text()='Login']")).click(); // clicking on the logIn button
 		
 		Thread.sleep(1000);
-		*/
+		
 		List<WebElement> list = driver.findElements(By.tagName("div"));
 		System.out.println(list.size());
-		//driver.close();
+		driver.close();
 		
 		
 	}
