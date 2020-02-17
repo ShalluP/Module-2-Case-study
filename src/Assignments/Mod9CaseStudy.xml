@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Module 9 Case Study">
+	<test name="Module 9  Data Driven Framework">
+		<classes>
+			<class name="package Assignments.Mod9TestCase">
+			</class>
+		</classes>
+	</test>
+</suite>

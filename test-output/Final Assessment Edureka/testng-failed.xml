@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Final Assessment Edureka]">
+  <test name="1. Edureka Final Assessment Blogs Page(failed)">
+    <classes>
+      <class name="FinalAssignment.EdurekaFATestClassTestNgDDFW">
+        <methods>
+          <include name="ClickEnrol"/>
+          <include name="CloseBrowser"/>
+          <include name="EditProfile"/>
+          <include name="SelectCourse"/>
+          <include name="LogIn"/>
+          <include name="ClickAllCourses"/>
+          <include name="PayMent"/>
+          <include name="SendCred" invocation-numbers="0 1"/>
+          <include name="OpenAUT"/>
+          <include name="EditProfDetails"/>
+          <include name="ClickLogIn"/>
+          <include name="ClickNext"/>
+          <include name="ExploreBlogs"/>
+        </methods>
+      </class> <!-- FinalAssignment.EdurekaFATestClassTestNgDDFW -->
+    </classes>
+  </test> <!-- 1. Edureka Final Assessment Blogs Page(failed) -->
+  <test name="2. Edureka Final Assessment Edit Profile(failed)">
+    <groups>
+      <run>
+        <exclude name="Blogs"/>
+        <exclude name="SelCourse"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="FinalAssignment.EdurekaFATestClassTestNgDDFW">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="SendCred" invocation-numbers="0 1"/>
+          <include name="OpenAUT"/>
+          <include name="EditProfile"/>
+          <include name="EditProfDetails"/>
+          <include name="LogIn"/>
+          <include name="ClickLogIn"/>
+          <include name="ClickNext"/>
+        </methods>
+      </class> <!-- FinalAssignment.EdurekaFATestClassTestNgDDFW -->
+    </classes>
+  </test> <!-- 2. Edureka Final Assessment Edit Profile(failed) -->
+  <test name="3. Edureka Final Assessment Select Course Selenium(failed)">
+    <groups>
+      <run>
+        <exclude name="Blogs"/>
+        <exclude name="Profile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="FinalAssignment.EdurekaFATestClassTestNgDDFW">
+        <methods>
+          <include name="ClickEnrol"/>
+          <include name="CloseBrowser"/>
+          <include name="SendCred" invocation-numbers="0 1"/>
+          <include name="OpenAUT"/>
+          <include name="SelectCourse"/>
+          <include name="LogIn"/>
+          <include name="ClickLogIn"/>
+          <include name="ClickAllCourses"/>
+          <include name="PayMent"/>
+        </methods>
+      </class> <!-- FinalAssignment.EdurekaFATestClassTestNgDDFW -->
+    </classes>
+  </test> <!-- 3. Edureka Final Assessment Select Course Selenium(failed) -->
+</suite> <!-- Failed suite [Final Assessment Edureka] -->

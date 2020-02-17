@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110108" started-at="2019-09-02T14:56:59Z" finished-at="2019-09-02T14:58:49Z">
+    <groups>
+      <group name="Blogs">
+        <method signature="EdurekaFATestClassTestNgDDFW.ExploreBlogs()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="ExploreBlogs" class="FinalAssignment.EdurekaFATestClassTestNgDDFW"/>
+      </group> <!-- Blogs -->
+      <group name="SelCourse">
+        <method signature="EdurekaFATestClassTestNgDDFW.ClickAllCourses()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="ClickAllCourses" class="FinalAssignment.EdurekaFATestClassTestNgDDFW"/>
+        <method signature="EdurekaFATestClassTestNgDDFW.SelectCourse()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="SelectCourse" class="FinalAssignment.EdurekaFATestClassTestNgDDFW"/>
+      </group> <!-- SelCourse -->
+      <group name="LogIn">
+        <method signature="EdurekaFATestClassTestNgDDFW.ClickLogIn()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="ClickLogIn" class="FinalAssignment.EdurekaFATestClassTestNgDDFW"/>
+        <method signature="EdurekaFATestClassTestNgDDFW.LogIn()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="LogIn" class="FinalAssignment.EdurekaFATestClassTestNgDDFW"/>
+        <method signature="EdurekaFATestClassTestNgDDFW.SendCred(java.lang.String, java.lang.String)[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="SendCred" class="FinalAssignment.EdurekaFATestClassTestNgDDFW"/>
+      </group> <!-- LogIn -->
+      <group name="Profile">
+        <method signature="EdurekaFATestClassTestNgDDFW.ClickNext()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="ClickNext" class="FinalAssignment.EdurekaFATestClassTestNgDDFW"/>
+        <method signature="EdurekaFATestClassTestNgDDFW.EditProfDetails()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="EditProfDetails" class="FinalAssignment.EdurekaFATestClassTestNgDDFW"/>
+        <method signature="EdurekaFATestClassTestNgDDFW.EditProfile()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="EditProfile" class="FinalAssignment.EdurekaFATestClassTestNgDDFW"/>
+      </group> <!-- Profile -->
+    </groups>
+    <test name="Default test" duration-ms="110108" started-at="2019-09-02T14:56:59Z" finished-at="2019-09-02T14:58:49Z">
+      <class name="FinalAssignment.EdurekaFATestClassTestNgDDFW">
+        <test-method status="PASS" signature="OpenAUT()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="OpenAUT" is-config="true" duration-ms="18043" started-at="2019-09-02T16:56:41Z" finished-at="2019-09-02T16:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAUT -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="LogIn" duration-ms="914" started-at="2019-09-02T16:56:59Z" finished-at="2019-09-02T16:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="SendCred(java.lang.String, java.lang.String)[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="SendCred" duration-ms="4307" started-at="2019-09-02T16:57:01Z" data-provider="FetchData" finished-at="2019-09-02T16:57:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendCred -->
+        <test-method status="PASS" signature="SendCred(java.lang.String, java.lang.String)[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="SendCred" duration-ms="4351" started-at="2019-09-02T16:57:05Z" data-provider="FetchData" finished-at="2019-09-02T16:57:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinitbassi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India15Great]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendCred -->
+        <test-method status="PASS" signature="ClickLogIn()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="ClickLogIn" duration-ms="12605" started-at="2019-09-02T16:57:10Z" finished-at="2019-09-02T16:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickLogIn -->
+        <test-method status="PASS" signature="ExploreBlogs()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="ExploreBlogs" duration-ms="22973" started-at="2019-09-02T16:57:22Z" finished-at="2019-09-02T16:57:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExploreBlogs -->
+        <test-method status="PASS" signature="EditProfile()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="EditProfile" duration-ms="9783" started-at="2019-09-02T16:57:45Z" finished-at="2019-09-02T16:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method status="PASS" signature="EditProfDetails()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="EditProfDetails" duration-ms="2869" started-at="2019-09-02T16:57:55Z" finished-at="2019-09-02T16:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfDetails -->
+        <test-method status="PASS" signature="ClickNext()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="ClickNext" duration-ms="9542" started-at="2019-09-02T16:57:58Z" finished-at="2019-09-02T16:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickNext -->
+        <test-method status="PASS" signature="ClickAllCourses()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="ClickAllCourses" duration-ms="6798" started-at="2019-09-02T16:58:07Z" finished-at="2019-09-02T16:58:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickAllCourses -->
+        <test-method status="PASS" signature="SelectCourse()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="SelectCourse" duration-ms="21089" started-at="2019-09-02T16:58:14Z" finished-at="2019-09-02T16:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectCourse -->
+        <test-method status="PASS" signature="MyCourse()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="MyCourse" duration-ms="7783" started-at="2019-09-02T16:58:35Z" finished-at="2019-09-02T16:58:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyCourse -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="LogOut" duration-ms="5900" started-at="2019-09-02T16:58:43Z" finished-at="2019-09-02T16:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:FinalAssignment.EdurekaFATestClassTestNgDDFW@5dfcfece]" name="CloseBrowser" is-config="true" duration-ms="4815" started-at="2019-09-02T16:58:49Z" finished-at="2019-09-02T16:58:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- FinalAssignment.EdurekaFATestClassTestNgDDFW -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

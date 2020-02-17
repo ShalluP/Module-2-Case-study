@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Final Assessment Edureka">
+	<test name="1. Edureka Final Assessment Blogs Page">
+	<groups>
+			<run>
+			<include name ="LogIn"></include>
+			<include name ="Blogs"></include>
+			
+				<exclude name="Profile"></exclude>
+				<exclude name="SelCourse"></exclude>
+			</run>
+		</groups>
+				<classes>
+			<class name="FinalAssignment.EdurekaFATestClassTestNgDDFW">
+			</class>
+		</classes>
+	</test>
+
+	<test name="2. Edureka Final Assessment Edit Profile">
+		<groups>
+			<run>
+				<exclude name="Blogs"></exclude>
+				<exclude name="SelCourse"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="FinalAssignment.EdurekaFATestClassTestNgDDFW">
+			</class>
+		</classes>
+	</test>
+	
+	<test name="3. Edureka Final Assessment Select Course Selenium">
+		<groups>
+			<run>
+				<exclude name="Blogs"></exclude>
+				<exclude name="Profile"></exclude>
+			</run>
+		</groups>
+		<classes>
+			<class name="FinalAssignment.EdurekaFATestClassTestNgDDFW">
+			</class>
+		</classes>
+	</test>
+</suite>

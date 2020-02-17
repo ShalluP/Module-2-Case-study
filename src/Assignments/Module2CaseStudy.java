@@ -72,8 +72,8 @@ public class Module2CaseStudy {
 		email.sendKeys("abc@gmail.com"); // sending name
 		Thread.sleep(2000);
 		
-		WebElement email = driver.findElement(By.id("si_popup_email")); // Inspecting the webelement email
-		email.sendKeys("abc@gmail.com"); // sending email id 
+	//	WebElement email = driver.findElement(By.id("si_popup_email")); // Inspecting the webelement email
+	//	email.sendKeys("abc@gmail.com"); // sending email id 
 		
 		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // implicit wait
 		
