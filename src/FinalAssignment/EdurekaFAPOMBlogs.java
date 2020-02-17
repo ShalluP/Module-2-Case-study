@@ -81,6 +81,5 @@ public class EdurekaFAPOMBlogs {
 
 		SoftwareTesting.click();
 		Thread.sleep(3000);
-
 	}
 }
